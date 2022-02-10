@@ -1,4 +1,4 @@
-Feature: homePage
+Feature: homePage Link verification
 
   Scenario: Successful check the Cart of an inventory page
     Given user is on inventory page
