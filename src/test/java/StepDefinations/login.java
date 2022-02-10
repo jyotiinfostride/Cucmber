@@ -1,17 +1,12 @@
 package StepDefinations;
 
-import cucumber.api.java.After;
-import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
 import io.github.bonigarcia.wdm.WebDriverManager;
-import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
-import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 public class login {
@@ -69,13 +64,13 @@ public class login {
     //   driver.findElement(By.id("react-burger-menu-btn")).click();
       // driver.findElement(By.id("logout_sidebar_link")).click();
   //  }
-    @Then("Click on Sauce Labs Backpack Add to Cart")
-    public void click_on_Sauce_Labs_Backpack_Add_to_Cart() {
-        driver.findElement(By.id("add-to-cart-sauce-labs-backpack")).click();
-    }
+//    @Then("Click on Sauce Labs Backpack Add to Cart")
+//    public void click_on_Sauce_Labs_Backpack_Add_to_Cart() {
+//        driver.findElement(By.id("add-to-cart-sauce-labs-backpack")).click();
+//    }
 
-    @Then("Click on Sauce Labs Bike Light Add to Cart")
-    public void click_on_Sauce_Labs_Bike_Light_Add_to_Cart() {
-        driver.findElement(By.id("add-to-cart-sauce-labs-bike-light")).click();
-    }
+   // @Then("Click on Sauce Labs Bike Light Add to Cart")
+   // public void click_on_Sauce_Labs_Bike_Light_Add_to_Cart() {
+       // driver.findElement(By.id("add-to-cart-sauce-labs-bike-light")).click();
+   // }
 }

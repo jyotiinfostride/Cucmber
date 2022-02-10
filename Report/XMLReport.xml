@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="7.72102">
+    <testcase classname="homePage" name="Successful check the Cart of an inventory page" time="7.72102">
+        <system-out><![CDATA[Given user is on inventory page.............................................passed
+When Click on Sauce Labs Backpack Add to Cart...............................passed
+]]></system-out>
+    </testcase>
+</testsuite>
