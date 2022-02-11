@@ -1,8 +1,33 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="7.72102">
-    <testcase classname="homePage" name="Successful check the Cart of an inventory page" time="7.72102">
-        <system-out><![CDATA[Given user is on inventory page.............................................passed
-When Click on Sauce Labs Backpack Add to Cart...............................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="1" tests="6" time="0.009889">
+    <testcase classname="homePage Image verification" name="Successful check the Image of an inventory page" time="0.005221">
+        <system-out><![CDATA[Given user is on inventory page.............................................skipped
+When Click on Sauce Labs Backpack Image.....................................skipped
 ]]></system-out>
+    </testcase>
+    <testcase classname="homePage Image verification" name="Successful check the Image of an inventory page 2" time="0.000304">
+        <system-out><![CDATA[Given user is on inventory page.............................................skipped
+When Click on Sauce Labs Bike Light Image...................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="homePage Image verification" name="Successful check to Image of an Inventory page" time="0.00153">
+        <system-out><![CDATA[Given user is on inventory page.............................................skipped
+When Click on Sauce Labs Bolt T-Shirt Image.................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="homePage Image verification" name="Successful check to Image of an Inventory page 2" time="0.000751">
+        <system-out><![CDATA[Given user is on inventory page.............................................skipped
+When Click on Sauce Labs Fleece Jacket Image................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="homePage Image verification" name="Successful check to Image of an Inventory page 3" time="0.001155">
+        <system-out><![CDATA[Given user is on inventory page.............................................skipped
+When Click on Sauce Labs Onesie Image.......................................skipped
+]]></system-out>
+    </testcase>
+    <testcase classname="homePage Image verification" name="Successful check to Image of an Inventory page 4" time="0.000928">
+        <skipped><![CDATA[Given user is on inventory page.............................................skipped
+When Click on Test.allTheThings()T-Shirt(Red) Image.........................undefined
+]]></skipped>
     </testcase>
 </testsuite>

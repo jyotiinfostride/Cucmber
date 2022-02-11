@@ -4,44 +4,211 @@
     "elements": [
       {
         "line": 3,
-        "name": "Successful check the Cart of an inventory page",
+        "name": "Successful check the Image of an inventory page",
         "description": "",
-        "id": "homepage;successful-check-the-cart-of-an-inventory-page",
+        "id": "homepage-image-verification;successful-check-the-image-of-an-inventory-page",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 7671460200,
-              "status": "passed"
+              "duration": 611000,
+              "status": "skipped"
             },
             "line": 4,
             "name": "user is on inventory page",
             "match": {
-              "location": "HomePage.user_is_on_inventory_page()"
+              "location": "HomePageImage.user_is_on_inventory_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 44572300,
-              "status": "passed"
+              "duration": 13100,
+              "status": "skipped"
             },
             "line": 5,
-            "name": "Click on Sauce Labs Backpack Add to Cart",
+            "name": "Click on Sauce Labs Backpack Image",
             "match": {
-              "location": "HomePage.click_on_Sauce_Labs_Backpack_Add_to_Cart()"
+              "location": "HomePageImage.click_on_Sauce_Labs_Backpack_Image()"
             },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "Successful check the Image of an inventory page",
+        "description": "",
+        "id": "homepage-image-verification;successful-check-the-image-of-an-inventory-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10500,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "user is on inventory page",
+            "match": {
+              "location": "HomePageImage.user_is_on_inventory_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4800,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "Click on Sauce Labs Bike Light Image",
+            "match": {
+              "location": "HomePageImage.click_on_Sauce_Labs_Bike_Light_Image()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Successful check to Image of an Inventory page",
+        "description": "",
+        "id": "homepage-image-verification;successful-check-to-image-of-an-inventory-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 14200,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "user is on inventory page",
+            "match": {
+              "location": "HomePageImage.user_is_on_inventory_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5200,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "Click on Sauce Labs Bolt T-Shirt Image",
+            "match": {
+              "location": "HomePageImage.click_on_Sauce_Labs_Bolt_T_Shirt_Image()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 15,
+        "name": "Successful check to Image of an Inventory page",
+        "description": "",
+        "id": "homepage-image-verification;successful-check-to-image-of-an-inventory-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13600,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "user is on inventory page",
+            "match": {
+              "location": "HomePageImage.user_is_on_inventory_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6200,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "Click on Sauce Labs Fleece Jacket Image",
+            "match": {
+              "location": "HomePageImage.click_on_Sauce_Labs_Fleece_Jacket_Image()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Successful check to Image of an Inventory page",
+        "description": "",
+        "id": "homepage-image-verification;successful-check-to-image-of-an-inventory-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13900,
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "user is on inventory page",
+            "match": {
+              "location": "HomePageImage.user_is_on_inventory_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5300,
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Click on Sauce Labs Onesie Image",
+            "match": {
+              "location": "HomePageImage.click_on_Sauce_Labs_Onesie_Image()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Successful check to Image of an Inventory page",
+        "description": "",
+        "id": "homepage-image-verification;successful-check-to-image-of-an-inventory-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10800,
+              "status": "skipped"
+            },
+            "line": 24,
+            "name": "user is on inventory page",
+            "match": {
+              "location": "HomePageImage.user_is_on_inventory_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 25,
+            "name": "Click on Test.allTheThings()T-Shirt(Red) Image",
+            "match": {},
             "keyword": "When "
           }
         ]
       }
     ],
-    "name": "homePage",
+    "name": "homePage Image verification",
     "description": "",
-    "id": "homepage",
+    "id": "homepage-image-verification",
     "keyword": "Feature",
-    "uri": "C:/Users/Jyoti/Desktop/com.bddFramework/src/test/java/FeatureFile/homePage.feature",
+    "uri": "C:/Users/Jyoti/Desktop/com.bddFramework/src/test/java/FeatureFile/homePageImage.feature",
     "tags": []
   }
 ]
